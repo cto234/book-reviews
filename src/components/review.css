@@ -45,6 +45,7 @@
   .book-review {
     text-align: left;
     text-indent: 20px;
+    white-space: pre-line;
   }
 
   .left-half{
