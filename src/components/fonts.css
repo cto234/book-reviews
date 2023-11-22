@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'IBMPlexMono-Thin';
+    src: url('../assets/fonts/IBM_Plex_Mono/IBMPlexMono-Thin.ttf') format('truetype');
+    font-weight: thin;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Nunito-Black';
+    src: url('../assets/fonts/Nunito/static/Nunito-Black.ttf') format('truetype');
+    font-weight: black;
+    font-style: normal;
+  }

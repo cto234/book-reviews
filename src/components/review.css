@@ -1,0 +1,55 @@
+@import url('./fonts.css');
+
+
+.review-page {
+    display: flex;
+    max-width: 800px; /* Adjust as needed */
+    margin: 0 auto; /* Center the content on the page */
+    padding: 20px; /* Add spacing around the content */
+    margin-top: 10px;
+    border: 2px solid black;
+    border-radius: 15px;
+  }
+  
+  .cover-section {
+    flex-shrink: 0; /* Prevent the cover from shrinking */
+    margin-right: 20px; /* Add spacing between cover and info/review sections */
+    width: 14em; /* Adjust the width of the cover section */
+
+  }
+  
+  .cover-section img {
+    max-width: 100%; /* Make sure the image doesn't exceed its container */
+    display: block; /* Ensure the image behaves as a block element */
+    margin-bottom: 10px; /* Add spacing between image and title/rating */
+  }
+  
+  .info-section {
+    display: flex;
+    flex-direction: column; /* Stack the title and score vertically */
+    flex-grow: 1; /* Allow the info section to grow and take remaining space */
+    text-align: center;
+  }
+  
+  .star-rating {
+    margin-bottom: 10px; /* Add spacing between stars and review */
+  }
+  
+  .review-section {
+    max-width: 500px; /* Adjust as needed */
+    flex-shrink: 0; /* Prevent the review section from shrinking */
+    padding-right: 200px;
+    padding-left: 30px; /* Add left padding to move the text box to the right */
+  }
+
+  .book-review {
+    text-align: left;
+    text-indent: 20px;
+  }
+
+  .left-half{
+    display: flex;
+    flex-direction: column; /* Stack the title and score vertically */
+  }
+  
+  

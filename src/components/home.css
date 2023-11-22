@@ -1,0 +1,68 @@
+@import url('./fonts.css');
+
+.book-title{
+    font-family: 'Nunito-Black', monospace;
+    font-weight: bold;
+    color: black;
+}
+
+.book-item-link{
+    text-decoration: none;
+}
+/* BookGrid.css (or your stylesheet) */
+.book-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .book-item {
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 130px;
+    margin-top: 10px;
+    width: 200px; /* Set a fixed width for each book item */
+    height: 300px; /* Set a fixed height for each book item */
+    display: flex;
+    flex-direction: column; /* Stack the image, title, and score vertically */
+  }
+  
+  .book-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    max-height: 100%; /* Ensure the image doesn't exceed the container height */
+    border-radius: 8px; /* Optionally, add rounded corners */
+    border: 1px solid black;
+  }
+  
+  .book-title {
+    margin-top: 8px;
+    font-size: 1.2em;
+  }
+  
+  .book-score {
+    margin-top: 4px;
+    font-size: 1em;
+  }
+  
+.star-rating {
+    font-size: 1.5em; /* Adjust the size of the stars */
+    color: black;
+  }
+  
+  .half-star {
+    position: relative;
+    display: inline-block;
+    margin-right: -0.5em; /* Adjust spacing for the half star */
+  }
+  
+  .half-star::before {
+    content: '\2605'; /* Unicode character for a filled star */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    overflow: hidden;
+  }
+  
