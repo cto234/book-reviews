@@ -4,6 +4,7 @@ import acokCover from './assets/covers/acok.jpeg'
 import asosCover from './assets/covers/asos.jpeg'
 import affcCover from './assets/covers/affc.jpeg'
 import adwdCover from './assets/covers/adwd.jpeg'
+import traskCover from './assets/covers/trask.jpeg'
 
 
 const books = [
@@ -97,7 +98,24 @@ const books = [
         title: 'The Dharma Bums',
         cover: dharmaBumsCover,
         score: 3,
-        review: 'Not as good as On the Road.'
+        review: `Not as good as On the Road.
+        
+        I don't have much to say about this book, really. It was good... until it wasn't. I enjoyed some parts, particularly the section where Kerouac recounts his climb of a mountain with his mountain man friend, and the descriptions of some wild bohemian parties, but ultimately I got a bit bored with the character constantly talking about Buddhism and being enlightened, if only because it happens to abruptly. He seems to discover Buddhism and immediately declare himself an expert and go on about it for ages to random people. Probably not a fun guy to hang out with. I do prefer On the road for its relativre lack of preachiness and listen-to-me-I-know-everything-ness (although there is still a fair amount of that), and its faster pace. Overall, it was alright, but it certainly made me want to go out and be in nature!.`
+    },
+    {
+        id: 7,
+        title: 'Trask',
+        cover: traskCover,
+        score: 4.5,
+        review: `How is this book not famous?
+        
+        The story of Trask by Don Berry (coincidentally the author was friends with Gary Snyder AKA Japhy Ryder - the main character of the Dharma Bums) is a simple one. A rough mountain man named Elbridge Trask has been living in the Oregon territory for years with his wife Hannah, alongside the friendly Clatsop tribe. One day he infds himself drawn to travel southward into Killamook territory, a less friendly tribe and uncertain land. He does so with the help of two Clatsops, and in the process learns much about himself. 
+        
+        I was worried I might get bored with this one. It starts off pretty slow, but the writing is so beautifully done, and the wilderness is so clearly evoked that I found myself enjoying Trask's slow meditations on whether or not he should consider traveling south. I found myself attatched to the characters. Trask with his stoic attitude and inner conflict, Wakila with his innocence and determination to make Trask and his tribe proud, and Charley Kewha, the mysterious and wise Clatsop who slowly wins over both the reader and Trask. 
+        
+        (Spoilers!) The final quarter of this book is a masterpiece. Trask's hopeless, solitary journey into the storm is full of foreboding, and turns out so much worse than I could have imagined. The whole section of Trask carrying Charley's body back to the tribe is harrowing, and made all the worse with Trask clearly being in shock, compounded with his lack of food or water for days, giving us a really tragic scene where Charley Kewha's dead body is urging Trask onward, thereby fulfilling Trask's near-impossible goal of completing the 'Searching' ritual.
+        
+        This book is fantastic, and especially good for me as an Oregonian. I loved it beginning to end, and was suprised by just how engaged I was in the story and characters. I would recommend this book to anyone.`
     },
 
   ];
