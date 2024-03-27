@@ -8,7 +8,7 @@ import books from './books'
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/book-reviews">
       <div className='app-container'>
         <Header />
         <Routes>
