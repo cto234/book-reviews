@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/book-reviews/static/css/main.af84f3c5.css",
-    "main.js": "/book-reviews/static/js/main.de88244a.js",
+    "main.js": "/book-reviews/static/js/main.25d546c4.js",
     "static/js/787.39138378.chunk.js": "/book-reviews/static/js/787.39138378.chunk.js",
     "static/media/affc.jpeg": "/book-reviews/static/media/affc.9725ea45d1e4aec7d70b.jpeg",
     "static/media/agot.jpg": "/book-reviews/static/media/agot.8c6d364433f4f7015195.jpg",
@@ -14,11 +14,11 @@
     "static/media/dharma-bums.png": "/book-reviews/static/media/dharma-bums.a715f36fd9b0e5cc5edc.png",
     "index.html": "/book-reviews/index.html",
     "main.af84f3c5.css.map": "/book-reviews/static/css/main.af84f3c5.css.map",
-    "main.de88244a.js.map": "/book-reviews/static/js/main.de88244a.js.map",
+    "main.25d546c4.js.map": "/book-reviews/static/js/main.25d546c4.js.map",
     "787.39138378.chunk.js.map": "/book-reviews/static/js/787.39138378.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.af84f3c5.css",
-    "static/js/main.de88244a.js"
+    "static/js/main.25d546c4.js"
   ]
 }
