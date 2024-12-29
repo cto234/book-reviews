@@ -5,9 +5,15 @@ import asosCover from './assets/covers/asos.jpeg'
 import affcCover from './assets/covers/affc.jpeg'
 import adwdCover from './assets/covers/adwd.jpeg'
 import traskCover from './assets/covers/trask.jpeg'
+import bloodMeridianCover from './assets/covers/blood-m.jpg'
+import claudiusCover from './assets/covers/i-claudius.jpg'
+import claudiusGodCover from './assets/covers/claudius-the-god.jpg'
+import slouchingBethlehemCover from './assets/covers/slouching.jpg'
+import hundredYearsCover from './assets/covers/solitude.jpg'
 
 
 const books = [
+
     {
         id: 1,
         title: 'A Game of Thrones',
@@ -116,6 +122,41 @@ const books = [
         (Spoilers!) The final quarter of this book is a masterpiece. Trask's hopeless, solitary journey into the storm is full of foreboding, and turns out so much worse than I could have imagined. The whole section of Trask carrying Charley's body back to the tribe is harrowing, and made all the worse with Trask clearly being in shock, compounded with his lack of food or water for days, giving us a really tragic scene where Charley Kewha's dead body is urging Trask onward, thereby fulfilling Trask's near-impossible goal of completing the 'Searching' ritual.
         
         This book is fantastic, and especially good for me as an Oregonian. I loved it beginning to end, and was suprised by just how engaged I was in the story and characters. I would recommend this book to anyone.`
+    },
+    {
+        id: 8,
+        title: 'I, Claudius',
+        cover: claudiusCover,
+        score: 4.5,
+        review: `Fantastic historical fiction with colorful characters and drama, all based on true events.`
+    },
+    {
+        id: 9,
+        title: 'Claudius the God',
+        cover: claudiusGodCover,
+        score: 4,
+        review: `Can be a bit more monotonous as not much changes throughout the story until the end, but it's fun seeing Claudius deal with the pressure of running an empire.`
+    },
+    {
+        id: 10,
+        title: 'Blood Meridian',
+        cover: bloodMeridianCover,
+        score: 3,
+        review: `Brutal and minimalist. Some great moments that stuck with me, but in between those are a large amount of repetitive non-scenes of the gang travelling o an unclear mission to unclear destinations being horrible people for no reason.`
+    },
+    {
+        id: 11,
+        title: 'Slouching Towards Bethlehem',
+        cover: slouchingBethlehemCover,
+        score: 3,
+        review: `Not for me. I liked the story in Haight Ashbury, though.`
+    },
+    {
+        id: 12,
+        title: 'One Hundred Years of Solitude',
+        cover: hundredYearsCover,
+        score: 4.5,
+        review: `Fantastic, highly recommend.`
     },
 
   ];
